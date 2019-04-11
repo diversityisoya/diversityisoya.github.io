@@ -51,6 +51,21 @@
     float: left;
     background-color: cadetblue;
 }
+.sidebar h1{
+    height:40px;
+    width: 90%;
+    background-color: blue;
+    margin: 20px;
+    padding: 5px;
+}
+
+.sidebar_contents_list{
+    width:90%;
+    height: 500px;
+    background-color: azure;
+    margin: 20px;
+    padding: 5px;
+}
 
 .footer{
     width:100%;
