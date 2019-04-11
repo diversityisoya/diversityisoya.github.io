@@ -61,9 +61,13 @@
     width:80%;
     height: 500px;
     background-color: white;
-    margin: 20px;
+    margin: 30px;
     padding: 10px;
     border: solid;
+    font-size: 15px;
+}
+.sidebar_contents_list h1{
+    font-size: 20px;
 }
 
 .footer{
