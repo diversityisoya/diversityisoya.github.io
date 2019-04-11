@@ -1,13 +1,13 @@
 .header{
     width: 100%;
     height:140px;
-    background-color:royalblue;
+    background-color:black;
 }
 .header_logo{
     width: 600px;
     height: 50px;
-    background-color:dodgerblue;
-    color:black;
+    background-color:gray;
+    color:white;
     font-size: 40px;
     font-family: 'Franklin Gothic Medium';
     padding: 20px 20px 20px 20px;
@@ -18,20 +18,23 @@
     width:500px;
     height:50px;
     float: right;
-    color:black;
-    background-color: dodgerblue;
+    color:white;
+    background-color: gray;
     padding:5px 10px;
     margin: 35px 20px;
 }
 .main{
     width:100%;
     height:1000px;
+    background-color:#EEEEEE ;
+    /* border: solid; */
 }
 .contents{
     height: inherit;
     width: 70%;
     float: left;
-    background-color:steelblue;
+    /* border: solid; */
+    /* background-color:steelblue; */
 }
 .contents_info{
     height:90%;
@@ -40,7 +43,8 @@
     color: black;
     font-size: 17px;
     margin:30px 30px;
-    padding: 10px 10px
+    padding: 10px 10px;
+    border: solid;
 }
 .contents_info h1{
     font-size:40px;
@@ -49,28 +53,23 @@
     height: inherit;
     width:30%;
     float: left;
-    background-color: cadetblue;
-}
-.sidebar h1{
-    height:40px;
-    width: 90%;
-    background-color: blue;
-    margin: 20px;
-    padding: 5px;
+    /* border: solid; */
+    /* background-color: cadetblue; */
 }
 
 .sidebar_contents_list{
-    width:90%;
+    width:80%;
     height: 500px;
-    background-color: azure;
+    background-color: white;
     margin: 20px;
-    padding: 5px;
+    padding: 10px;
+    border: solid;
 }
 
 .footer{
     width:100%;
     height:50px;
-    background-color: dodgerblue;
+    background-color: black;
     padding: 10px 10px;
 }
 .footer_logo{
@@ -78,6 +77,7 @@
     height:30px;
     padding: 0px 10px;
     margin: 10px 10px;
+    color: white;
     font-size: 20px;
-    background-color: royalblue;
+    background-color: gray;
 }
