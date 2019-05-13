@@ -5,7 +5,7 @@ var app = new Vue({
         list: ['チャージャー', 'シューター',
             'ローラー', 'マニューバ', 'スピナー',
             'ブラスター', 'フデ',
-            'スロッシャー', 'シェルター'],
+            'スロッシャー', 'シェルター',],
 
     },
     methods: {
@@ -14,7 +14,7 @@ var app = new Vue({
         },
         BukiClick: function () {
             console.log("BukiClick")
-            var num = Math.floor(Math.random() * 10)
+            var num = Math.floor(Math.random() * 9)
             console.log(num)
             this.buki = this.list[num]
         },
