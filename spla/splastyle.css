@@ -1,0 +1,87 @@
+.header{
+    width: 100%;
+    height:140px;
+    background-color:black;
+}
+.header_logo{
+    width: 600px;
+    height: 50px;
+    background-color:gray;
+    color:white;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium';
+    padding: 20px 20px 20px 20px;
+    margin: 20px 20px;
+    float: left;
+}
+.header_info{
+    width:500px;
+    height:50px;
+    float: right;
+    color:white;
+    background-color: gray;
+    padding:5px 10px;
+    margin: 35px 20px;
+}
+.main{
+    width:100%;
+    height:1000px;
+    background-color:#EEEEEE ;
+    /* border: solid; */
+}
+.contents{
+    height: inherit;
+    width: 70%;
+    float: left;
+    /* border: solid; */
+    /* background-color:steelblue; */
+}
+.contents_info{
+    height:90%;
+    width:90%;
+    background-color: white;
+    color: black;
+    font-size: 17px;
+    margin:30px 30px;
+    padding: 10px 10px;
+    border: solid;
+}
+.contents_info h1{
+    font-size:40px;
+}
+.sidebar{
+    height: inherit;
+    width:30%;
+    float: left;
+    /* border: solid; */
+    /* background-color: cadetblue; */
+}
+
+.sidebar_contents_list{
+    width:80%;
+    height: 500px;
+    background-color: white;
+    margin: 30px;
+    padding: 10px;
+    border: solid;
+    font-size: 15px;
+}
+.sidebar_contents_list h1{
+    font-size: 20px;
+}
+
+.footer{
+    width:100%;
+    height:50px;
+    background-color: black;
+    padding: 10px 10px;
+}
+.footer_logo{
+    width:30%;
+    height:30px;
+    padding: 0px 10px;
+    margin: 10px 10px;
+    color: white;
+    font-size: 20px;
+    background-color: gray;
+}
