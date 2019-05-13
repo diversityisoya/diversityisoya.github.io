@@ -25,6 +25,14 @@
             <div class="contents_info">
                 <h1>splatoonの武器選定ページ</h1>
                 このページはなんとなく作りました。
+                <div id="app" class="app_contents">
+                    <!--ここにアプリテンプレートを書く-->
+                    <h3>今日のおすすめブキ</h3>
+                    <button v-on:click="BukiClick">ブキを選ぶ</button>
+                    <div>
+                        {{buki}}
+                    </div>
+                </div>
             </div>
         </div>
         <div class="sidebar">
@@ -42,6 +50,8 @@
     <div class="footer">
         <div class="footer_logo">isoya_portfolio_site</div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
+    <script src="spla.js"></script>
 </body>
 
 </html>
